@@ -7,6 +7,7 @@
 
 html {
   height: 100%;
+  font-size: 100%; /*16px*/
 }
 
 body {
@@ -15,6 +16,8 @@ body {
   background-repeat: no-repeat;
   max-width: 100%;
   font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.65;
   color: #160e0c;
   display: flex;
   flex-direction: column;
@@ -22,12 +25,38 @@ body {
   height: 100%;
 }
 
-h2 {
-  font-size: 2.5rem;
+p {
+  margin-bottom: 1.15rem;
+  font-size: 1.5rem;
 }
 
-p {
-  font-size: 1.5rem;
+h1 {
+  position: absolute;
+  width: 824px;
+  height: 534px;
+  left: 347px;
+  top: 220px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 154.5%;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #fffbdf;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  margin: 2.75rem 0 1.05rem;
+  font-size: 2.5rem;
+  line-height: 1.15;
+  font-weight: 600;
 }
 
 .navbar {
@@ -43,12 +72,10 @@ nav ul {
   list-style: none;
   justify-content: space-evenly;
   align-items: center;
-  
 }
 
 nav li {
   font-size: 1.25rem;
-  
 }
 
 nav img {
@@ -62,15 +89,21 @@ a {
 }
 
 a:hover {
-  color: #EB5529;
+  color: #eb5529;
 }
+
 .logo-header {
   display: flex;
   align-self: center;
-  margin: 230px;
+  margin: 330px;
+
+  width: 458px;
+  height: 372px;
+  left: 347px;
+  top: 220px;
 }
 
-.logo-header img {
+.logo-header h1 {
   width: 100%;
   height: auto;
 }
@@ -84,7 +117,7 @@ main {
 .menu-section {
   background-color: #fffbdf70;
   display: flex;
-  padding: 40px;
+  padding: 10px;
   justify-content: center;
 }
 
@@ -96,12 +129,13 @@ main {
   margin: 50;
 }
 
-.featured img  {
+.featured img {
   width: 341px;
 }
 
 .featured p {
-   width: 284px;
+  margin: 30px 0 0 30px ;
+  width: 284px;
 }
 
 .dessert-section {
@@ -143,12 +177,10 @@ main {
 }
 
 .desserts img {
-    position: relative;
-    right: 60px;
-    top: 10px;
+  position: relative;
+  right: 60px;
+  top: 10px;
 }
-
-
 
 .about-section {
   background-color: #fffbdf70;
@@ -177,6 +209,17 @@ main {
 }
 
 .icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.icons li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.icons ul {
+  display: flex;
   
 }
 
@@ -190,5 +233,4 @@ main {
   text-align: left;
   font-size: 1.5rem;
   padding: 10px;
-  
 }
