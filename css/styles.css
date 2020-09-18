@@ -1,0 +1,194 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/restaurant1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  font-family: "Playfair Display", serif;
+  color: #160e0c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: #fffbdf70;
+}
+
+nav ul {
+  width: 30%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+nav li {
+  font-size: 1.25rem;
+  
+}
+
+nav img {
+  padding: 10px;
+  padding-left: 50px;
+}
+
+a {
+  color: #160e0c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EB5529;
+}
+.logo-header {
+  display: flex;
+  align-self: center;
+  margin: 230px;
+}
+
+.logo-header img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-section {
+  background-color: #fffbdf70;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.featured {
+  background-color: #fffbdf70;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-top: 40px;
+  margin: 50;
+}
+
+.featured img  {
+  width: 341px;
+}
+
+.featured p {
+   width: 284px;
+}
+
+.dessert-section {
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-end;
+}
+
+.dessert-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: #fffbdf70;
+  border-radius: 4px;
+  height: 427px;
+  padding-right: 330px;
+}
+
+.wine {
+  padding: 30px;
+}
+
+.wine img {
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+.wine p {
+  padding: 25px 10px 25px 30px;
+  width: 260px;
+}
+
+.desserts {
+  padding: 45px 30px;
+}
+
+.desserts p {
+  width: 270px;
+}
+
+.desserts img {
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+
+
+
+.about-section {
+  background-color: #fffbdf70;
+  border-radius: 4px;
+  margin: 100px 0;
+  height: auto;
+  max-width: 55%;
+  padding-left: 300px;
+}
+
+.about-section h2 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.about-section p {
+  padding: 20px;
+  padding-left: 80px;
+}
+
+.cover-footer {
+  display: flex;
+  height: 168px;
+  justify-content: space-between;
+  background-color: #fffbdf70;
+}
+
+.icons {
+  
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 10px;
+  
+}
