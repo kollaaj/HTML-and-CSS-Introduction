@@ -14,6 +14,7 @@ body {
   background-image: url("/images/restaurant1.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #fffbdf;
   max-width: 100%;
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -31,24 +32,11 @@ p {
 }
 
 h1 {
-  position: absolute;
-  width: 824px;
-  height: 534px;
-  left: 347px;
-  top: 220px;
-
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: bold;
   font-size: 64px;
   line-height: 154.5%;
-
   letter-spacing: 1px;
   text-transform: uppercase;
-
   color: #fffbdf;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
@@ -57,6 +45,10 @@ h2 {
   font-size: 2.5rem;
   line-height: 1.15;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 1.825rem;
 }
 
 .navbar {
@@ -93,19 +85,8 @@ a:hover {
 }
 
 .logo-header {
-  display: flex;
-  align-self: center;
-  margin: 330px;
-
-  width: 458px;
-  height: 372px;
-  left: 347px;
-  top: 220px;
-}
-
-.logo-header h1 {
-  width: 100%;
-  height: auto;
+  margin: 140px 0 120px 370px;
+ 
 }
 
 main {
@@ -131,6 +112,7 @@ main {
 
 .featured img {
   width: 341px;
+  height: auto;
 }
 
 .featured p {
@@ -149,37 +131,39 @@ main {
   grid-template-columns: auto auto;
   background-color: #fffbdf70;
   border-radius: 4px;
-  height: 427px;
-  padding-right: 330px;
+  height: auto;
+  margin-left: 45%;
+  
 }
 
 .wine {
-  padding: 30px;
+  padding: 3rem;
 }
 
-.wine img {
-  position: relative;
-  left: 30px;
-  top: 20px;
+.wine h3 {
+  padding-left: 1rem;
 }
 
 .wine p {
-  padding: 25px 10px 25px 30px;
-  width: 260px;
+  padding-left: 1rem;
+  max-width: 282px;
 }
 
 .desserts {
-  padding: 45px 30px;
+  padding: 3rem;
+}
+
+.desserts h3 {
+  padding-left: 1rem;
 }
 
 .desserts p {
-  width: 270px;
+  padding-left: 1rem;
+  max-width: 282px;
 }
 
 .desserts img {
-  position: relative;
-  right: 60px;
-  top: 10px;
+
 }
 
 .about-section {
@@ -188,7 +172,7 @@ main {
   margin: 100px 0;
   height: auto;
   max-width: 55%;
-  padding-left: 300px;
+  padding-left: 10%;
 }
 
 .about-section h2 {
@@ -197,8 +181,7 @@ main {
 }
 
 .about-section p {
-  padding: 20px;
-  padding-left: 80px;
+  padding: 10px;
 }
 
 .cover-footer {
@@ -226,11 +209,11 @@ main {
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
 }
 
 .grid-item {
   text-align: left;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 10px 50px;
 }
