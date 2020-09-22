@@ -14,54 +14,58 @@
   <body>
     <nav class="navbar">
       <a href=""><img src="images/logo-small.svg" alt="" /></a>
+      <a class="burger" href=""><img src="images/burger.svg" alt="" /></a>
       <ul>
         <li>
-          <a href="/menu">Menu</a>
+          <a href="#menu">Menu</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="/reservations">Reservations</a>
+          <a href="#">Reservations</a>
         </li>
       </ul>
     </nav>
 
-    <header class="logo-header">
-      <h1>People<br>disappoint.<br>
-        Fine cuisine<br>
-        never does.</h1>
+    <header class="slogan">
+      <h1>
+        People<br />disappoint.<br />
+        Fine cuisine<br />
+        never does.
+      </h1>
+      <img src="images/restaurant1.svg" alt="" />
     </header>
 
     <main>
-      <section class="menu-section">
+      <section id="menu" class="menu-section">
         <h2>Evening Menu</h2>
       </section>
 
       <section class="menu-section featured">
         <div>
           <img src="images/steak.svg" alt="" />
+          <h3>BEEF TENDERLOIN</h3>
           <p>
-            BEEF TENDERLOIN<br />
-            The tenderloin is consideredthe best part of the beef.<br />
+            The tenderloin is considered the best part of the beef.<br />
             6.990 kr.
           </p>
         </div>
         <div>
           <img src="images/Dal Makhni.svg" alt="" />
+          <h3>SHELLFISH SOUP</h3>
           <p>
-            SHELLFISH SOUP<br />
             Icelandic shrimps, mini scallops and langoustine. <br />2.990 kr.
           </p>
         </div>
         <div>
           <img src="images/Chicken.svg" alt="" />
-          <p>
-            CHICKEN<br />
-            With spring onion and marinated in fresh herbs <br />2.190 kr.
-          </p>
+          <h3>CHICKEN</h3>
+          <p>With spring onion and marinated in fresh herbs <br />2.190 kr.</p>
         </div>
       </section>
+
+      <hr />
 
       <section class="dessert-section">
         <div class="dessert-container">
@@ -69,23 +73,23 @@
             <img src="images/wine.svg" alt="" />
             <h3>THE WINE LIST</h3>
             <p>
-             Our wine list is ideal for pairing with our menu and
-              we offer a good selection of wines.
+              Our wine list is ideal for pairing with our menu and we offer a
+              good selection of wines.
             </p>
           </div>
           <div class="desserts">
+            <img src="images/dessert.svg" alt="" />
             <h3>DESSERT</h3>
             <p>
-              Selection of desserts, exotic fruits
-              and coffee.<br>1.990 kr.
+              Selection of desserts, exotic fruits and coffee.<br />1.990 kr.
             </p>
-            <small></small>
-            <img src="images/dessert.svg" alt="" />
           </div>
         </div>
       </section>
 
-      <section class="about-section">
+      <hr />
+
+      <section id="about" class="about-section">
         <h2>About Brún</h2>
         <p>
           Brún restaurant is situated in a 160 year old building in the centre
@@ -100,13 +104,15 @@
       </section>
     </main>
 
+    <hr />
+
     <footer class="cover-footer">
       <div>
         <div class="grid-container">
           <div class="grid-item">Brún Restaurant</div>
           <div class="grid-item">Phone 571-7977</div>
           <div class="grid-item">Lækjagata 5</div>
-          <div class="grid-item">info@brunrestaurant</div>
+          <div class="grid-item">info@brunrestaurant.io</div>
           <div class="grid-item">101 Reykjavík</div>
           <div class="grid-item">Copyright © 2020 Brún Restaurant</div>
         </div>
@@ -114,17 +120,17 @@
       <div class="icons">
         <ul>
           <li>
-            <a href="">
+            <a class="face" href="#">
               <img src="images/facebook.svg" alt="" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="insta" href="#">
               <img src="images/Instagram.svg" alt="" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="trip" href="#">
               <img src="images/trip.svg" alt="" />
             </a>
           </li>
