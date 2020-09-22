@@ -117,10 +117,6 @@ nav ul {
   padding: 3rem;
 }
 
-.dessert-container {
-  padding: 3rem;
-}
-
 .about-section p {
   max-width: 25rem;
 }
@@ -265,59 +261,42 @@ nav ul {
     padding: 1rem;
     width: 17.75rem;
   }
+  
+  .dessert-section,
+  .about-section {
+    background-color: #fffbdf70;
+    border-radius: 0.25rem;
+    width: 55%;
+    margin: 3.125rem 0;
+    padding: 3rem;
+  }
 
   .dessert-section {
+    align-self: flex-end;
     display: flex;
-    margin-top: 3.125rem;
-    width: 100%;
   }
 
-  .dessert-container {
-    display: flex;
-    background-color: #fffbdf70;
-    width: 100%;
-    border-radius: 0.25rem;
-    height: auto;
-    margin-left: 45%;
-    padding: 2rem 1rem 0 1rem;
+  .dessert-section .wine {
+    margin-right: 2rem;
   }
 
-  .wine {
-    margin: 1rem 2rem;
-  }
-
-  .wine p {
-    padding: 1rem;
-  }
-
-  .desserts {
-    margin: 1rem 2rem;
-  }
-
-  .desserts p {
-    padding: 1rem;
+  .dessert-section p {
+    padding-left: 1rem;
   }
 
   .about-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #fffbdf70;
-    width: 100%;
-    border-radius: 0.25rem;
-    margin: 3.125rem 0;
-    margin-right: 80%;
-    padding: 3rem 1rem 1rem 1rem;
+    align-self: flex-start;
   }
 
   .about-section h2 {
-    margin: 0;
-    padding-left: 50rem;
+    margin-left: 50%;
+    margin-top: 0;
   }
 
   .about-section p {
-    margin: 0;
-    padding-left: 50rem;
-    max-width: none;
+    padding: 0;
+    margin-left: 50%;
+    max-width: inherit;
   }
 
   .cover-footer {
