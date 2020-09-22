@@ -6,12 +6,12 @@ I created a one page website for a restaurant that does not exist (but dibs on t
 The minimum requirements for this assignment were followed to a tee
 
 Minimum requirements:
-- Website’s <body> should contain at least 3 parts: <header>, <main> and <footer> element's
-- <header> element should contain a logo and navigation item
-- <footer> element should contain at least some contact information
+- Website’s body should contain at least 3 parts: header, main and footer element's
+- header element should contain a logo and navigation item
+- footer element should contain at least some contact information
 
 Website should contain:
-- At least 2 <section> elements
+- At least 2 section elements
 - Paragraph, list, image and anchor elements
 - be styled with CSS
 - color palette
