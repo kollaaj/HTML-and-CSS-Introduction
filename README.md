@@ -20,5 +20,5 @@ Website should contain:
 
 -Use BEM notation for the CSS (yeah not so much, I dont get BEM but I will... later)
 
-This is the link to the surge static website that I managed to publish: trite-design.surge.sh 
+This is the link to the surge static website that I managed to publish: outstanding-walk.surge.sh
 
